@@ -31,6 +31,7 @@ import cse from "./company/cseLogo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import coffeeShop from "./coffeeshp.jpg";
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   tripguide,
   esi,
   cse,
+  coffeeShop,
 };
