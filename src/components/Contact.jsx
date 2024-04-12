@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
+  // template_prpodw5  gmail : service_vs9934g  public_key:IfUsuGcS9LVz66aqw
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -25,6 +26,7 @@ const Contact = () => {
       ...form,
       [name]: value,
     });
+    console.log(form)
   };
 
   const handleSubmit = (e) => {
@@ -33,16 +35,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_vs9934g",
+        "template_prpodw5",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Abderrahemene",
           from_email: form.email,
-          to_email: "abdegh0343@gmail.com",
+          to_email: "la_bouchendouka@esi.dz",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "IfUsuGcS9LVz66aqw"
       )
       .then(
         () => {
