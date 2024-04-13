@@ -147,7 +147,7 @@ const testimonials = [
       "I've never met a web developer who truly cares about their clients' success like Yacine does.",
     name: "Arab Hamza",
     designation: "Team leader",
-    company: "Team mate at ESIPhd project",
+    company: "ESIPhd project",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -155,7 +155,7 @@ const testimonials = [
       "After Yacine optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Khellas Yacine",
     designation: "Back-end developer",
-    company: "Freelancer",
+    company: "Freelancing project",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
